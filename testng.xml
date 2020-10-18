@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+    <test name="PerfectoSelenium" enabled="true">
+        <classes>
+            <class name="com.perfecto.testng.DesktopWinIE" />
+            <class name="com.perfecto.testng.DesktopWinEdge" />
+            <class name="com.perfecto.testng.DesktopWinChrome" />
+            <class name="com.perfecto.testng.DesktopWinFirefox" />
+            <class name="com.perfecto.testng.DesktopMacChrome" />
+            <class name="com.perfecto.testng.DesktopMacFireFox" />
+            <class name="com.perfecto.testng.DesktopMacSafari" />
+            <class name="com.perfecto.testng.AndroidPixel4" />
+            <class name="com.perfecto.testng.AndroidGalaxyNote10" />
+            <class name="com.perfecto.testng.IosIphone7" />
+            <class name="com.perfecto.testng.IosIphoneX" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

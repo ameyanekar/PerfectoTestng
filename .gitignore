@@ -1,0 +1,6 @@
+.idea/
+
+chromedriver
+
+*.class
+*.kotlin_module
